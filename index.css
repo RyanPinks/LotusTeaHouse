@@ -3,3 +3,11 @@
         linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
         url("loutusteahousebackground.png");
 }
+
+h1 (
+text-align: center;
+)
+
+h2 (
+text-align: left;
+)
