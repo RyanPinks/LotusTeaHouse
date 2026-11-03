@@ -1,7 +1,7 @@
-.hero {
+body {
     background-image:
         linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-        url("loutusteahousebackground.png");
+        url("lotusteahousebackground.png");
 }
 
 h1 (
