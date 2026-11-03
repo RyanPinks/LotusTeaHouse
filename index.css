@@ -1,7 +1,7 @@
 body {
     background-image:
         linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-        url("images/lotusteahousebackground.png");
+        url("images/loutusteahousebackground.png");
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,9 +10,9 @@ body {
 }
 
 h1 {
-text-align: center;
+    text-align: center;
 }
 
 h2 {
-text-align: left;
+    text-align: left;
 }
