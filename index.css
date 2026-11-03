@@ -1,7 +1,12 @@
 body {
     background-image:
         linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-        url("lotusteahousebackground.png");
+        url("images/lotusteahousebackground.png");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
 }
 
 h1 {
