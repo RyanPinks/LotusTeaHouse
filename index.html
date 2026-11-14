@@ -8,7 +8,47 @@
   <meta name="author" content="Ryan Pinks">
   <meta name="robots" content="index, follow">
   <link rel="stylesheet" href="index.css">
-  <title>Welcome to Lotus TeaHouse.</title> 
+  <title>Welcome to Lotus TeaHouse.</title>
+    <style>
+    /* Layout grid for the categories */
+    .category-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Individual category card */
+    .category-card {
+      text-align: center;
+      width: 200px;
+    }
+
+    /* Plain text category styling */
+    .category-title {
+      font-size: 1.2rem;
+      color: #333333;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    /* Image button styling and hover effects */
+    .image-button {
+      display: block;
+      width: 100%;
+      height: 150px;
+      object-fit: cover; /* Keeps image proportions clean */
+      border-radius: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    /* Visual feedback when hovering over the image button */
+    .image-button:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+  </style>
 </head>
 
 <body>
@@ -21,23 +61,22 @@
   <h1>Play Your Way</h1>
   <h2>Whether you're interested in combat, exploration, crafting, or simply relaxing with friends, Lotus TeaHouse welcomes all playstyles.</h2>
   <a href="https://discord.gg/BdCJCnYwM">Join Lotus TeaHouse's Discord Server</a>
-  <div class="introduction">
-    <button class="about">
-        <img src="images/about.png" alt="About Lotus TeaHouse">
-    </button>
-    <button class="join">
-        <img src="images/join.png" alt="Join Lotus TeaHouse">
-    </button>
-    <button class="rules">
-        <img src="images/rules.png" alt="About Lotus TeaHouse">
-    </button>
+    <div class="category-container">
 
-    <div class="dropdown-content">
-        <a href="about.html">About</a>
-        <a href="rules.html">Rules</a>
-        <a href="join.html">Join</a>
+    <!-- Category 1 -->
+    <div class="category-card">
+      <div class="category-title">Intoduction</div>
+      <a href="pages/about">
+        <img src="images/about.png" alt="About Lotus TeaHouse" class="image-button">
+      </a>
+      <a href="pages/join">
+        <img src="images/join.png" alt="Join Lotus TeaHouse" class="image-button">
+      </a>
+      <a href="pages/rules">
+        <img src="images/rules.png" alt="Lotus TeaHouse Rules" class="image-button">
+      </a>
     </div>
-</div>
+
   <a href="pages/about.html">🧋About Lotus TeaHouse🪷</a>
   <a href="pages/join.html">Joining</a>
   <a href="pages/rules.html">Rules</a>
